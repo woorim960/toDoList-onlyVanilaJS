@@ -46,10 +46,13 @@ header .icons:hover {
   display: flex;
   justify-content: center;
   padding: 12px;
+  margin: 0;
   background-color: rosybrown;
 }
 .clock h1 {
   color: whitesmoke;
+  margin: 0;
+  font-size: 28px;
   font-family: 'Do Hyeon', sans-serif;
 }
 

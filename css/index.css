@@ -59,6 +59,7 @@ header .icons:hover {
   width: 100%;
   margin: 0;
   font-size: 26px;
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 .form,
@@ -70,11 +71,13 @@ header .icons:hover {
   font-size: 22px;
   padding: 8px;
   border-bottom: 1px solid rosybrown;
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 .showing {
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
+  
 }
 
 .js-toDoForm {

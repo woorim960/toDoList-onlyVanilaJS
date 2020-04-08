@@ -49,14 +49,14 @@ header .icons:hover {
 }
 
 .clock {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding: 12px;
   margin: 0;
   background-color: rosybrown;
 }
 .clock h1 {
   color: whitesmoke;
+  width: 100%;
   margin: 0;
   font-size: 26px;
 }

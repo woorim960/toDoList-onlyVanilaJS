@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+}
+
+.clock {
+  text-align: center;
+  padding: 12px;
+  background-color: rosybrown;
+}
+.clock h1 {
+  color: whitesmoke;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.form,
+.greeting {
+  display: none;
+  text-align: center;
+  border-bottom: 1px solid rosybrown;
+}
+
+.greeting {
+  font-size: 24px;
+  font-family: 'Do Hyeon', sans-serif;
+  padding: 8px;
+}
+
+.showing {
+  display: block;
+}
+
+.js-toDoForm {
+  text-align: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.242);
+}
+
+input {
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+.box {
+  display: none;
+}
+
+.box.active {
+  display: block;
+  border: 1px solid olive;
+  margin: 20px 30%;
+}
+
+ul li {
+  margin: 4px;
+}
+
+ul li span {
+  font-size: 20px;
+  font-family: 'Nanum Pen Script', cursive;
+  
+}
+
+ul li button {
+  font-size: 16px;
+  margin-right: 6px;
+  border: none;
+  color: rgb(255, 194, 113);
+}
+
+ul li button:hover {
+  color: rgba(255, 51, 0, 0.708);
+  cursor: pointer;
+}

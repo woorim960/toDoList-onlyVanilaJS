@@ -20,17 +20,12 @@ header {
 header .logo {
   display: flex;
   align-self: center;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Kaushan Script', cursive;
   margin-left: 3px;
 }
 
 header .logo a {
   display: flex;
-}
-
-header .logo a:hover {
-  color: whitesmoke;
-  background-color: rgba(0, 0, 0, 0);
 }
 
 header .logo i {
@@ -64,7 +59,7 @@ header .icons:hover {
   color: whitesmoke;
   margin: 0;
   font-size: 26px;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Jua', sans-serif;
 }
 
 .form,
@@ -74,7 +69,7 @@ header .icons:hover {
 
 .greeting {
   font-size: 22px;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Jua', sans-serif;
   padding: 8px;
   border-bottom: 1px solid rosybrown;
 }

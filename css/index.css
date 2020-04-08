@@ -28,6 +28,11 @@ header .logo a {
   display: flex;
 }
 
+header .logo a:focus {
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 header .logo i {
   align-self: center;
   font-size: 24px;

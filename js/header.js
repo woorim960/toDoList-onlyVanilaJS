@@ -6,11 +6,9 @@ const menuBtn = document.querySelector('header .menuBtn'),
 function stopWatchOn(event) {
   console.log(event);
   if(stopWatchBtn.className === "deActive") {
-    // 활성화
-    stopWatchBtn.classList.remove("deActive");
-    clockBtn.classList.add("deActive");
+    // 비활성화 상태므로 아무런 동작도 일어나면 안된다.
   } else {
-    // 비활성화
+    // 활성화 동작 수행
     stopWatchBtn.classList.add("deActive");
     clockBtn.classList.remove("deActive");
   }
@@ -19,11 +17,9 @@ function stopWatchOn(event) {
 function clockOn(event) {
   console.dir(clockTitle);
   if(clockBtn.className === "deActive") {
-    // 활성화
-    clockBtn.classList.remove("deActive");
-    stopWatchBtn.classList.add("deActive");
+    // 비활성화 상태므로 아무런 동작도 일어나면 안된다.
   } else {
-    // 비활성화
+    // 활성화 동작 수행
     clockBtn.classList.add("deActive");
     stopWatchBtn.classList.remove("deActive");
   }

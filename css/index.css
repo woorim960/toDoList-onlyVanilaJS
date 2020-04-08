@@ -50,6 +50,7 @@ header .icons:hover {
 }
 .clock h1 {
   color: whitesmoke;
+  margin: 0 auto;
   font-family: 'Do Hyeon', sans-serif;
 }
 

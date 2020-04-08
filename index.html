@@ -10,34 +10,52 @@
   <script src="js/clock.js" defer></script>
   <script src="js/greeting.js" defer></script>
   <script src="js/todo.js" defer></script>
+  <script src="js/header.js" defer></script>
 
   <title>우리밋의 ToDoList</title>
 </head>
 <body>
-  <header>
+  <!-- 헤더 -->
+  <header class="js-header">
+    <!-- 로고 -->
     <div class="logo">
       <i class="far fa-grin-wink"></i>
       <h2 class="title">우리밋의 ToDoList</h2>
     </div>
-    <div class="icons">
+
+    <!-- 아이콘 -->
+    <div class="icons menuBtn">
       <i class="fas fa-ellipsis-v"></i>
     </div>
   </header>
+
+  <!-- 시계 -->
   <div class="js-clock clock">
     <h1>00 : 00 : 00</h1>
   </div>
 
+  <!-- 유저 폼 -->
   <form class="js-form form">
     <input type="text" placeholder="당신의 이름은 무엇입니까?">
   </form>
   <h4 class="greeting"></h4>
+
+  <!-- ToDo 폼 -->
   <form class="js-toDoForm">
     <input type="text" placeholder="오늘의 할 일은 무엇인가요?">
   </form>
 
-  <div class="box">
+  <!-- ToDoList -->
+  <fieldset class="box">
+    <legend class="toDoTitle">오늘의 할 일</legend>
     <ul class="js-toDoList">
     </ul>
-  </div>
+  </fieldset>
+
+  <!-- 설정 메뉴바 -->
+  <section class="menu">
+    <span id="clock" class="deActive">시계</span>
+    <span id="stopWatch">스탑워치</span>
+  </section>
 </body>
 </html>

@@ -38,7 +38,7 @@ header .icons {
 }
 
 header .icons:hover {
-  background-color: rgba(188, 143, 143, 0.596);
+  background-color: rgba(236, 193, 193, 0.527);
   cursor: pointer;
 }
 
@@ -59,13 +59,13 @@ header .icons:hover {
 .form,
 .greeting {
   display: none;
-  border-bottom: 1px solid rosybrown;
 }
 
 .greeting {
   font-size: 22px;
   font-family: 'Do Hyeon', sans-serif;
   padding: 8px;
+  border-bottom: 1px solid rosybrown;
 }
 
 .showing {
@@ -82,9 +82,13 @@ input {
   width: 150px;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding: 4px;
   font-size: 18px;
   text-align: center;
   font-family: 'Nanum Pen Script', cursive;
+  background-color: rgba(227, 254, 253, 0.37);
+  border: 1px solid rosybrown;
+  border-radius: 4px;
 }
 
 .box {
@@ -92,9 +96,20 @@ input {
 }
 
 .box.active {
-  display: block;
+  display: flex;
   border: 1px solid olive;
+  border-radius: 2px;
   margin: 20px 30%;
+}
+
+.toDoTitle {
+  align-content: center;
+  padding: 12px;
+  margin: 0 auto;
+  border-radius: 4px;
+  color: whitesmoke;
+  background-color: rgba(74, 140, 80, 0.397);
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 ul li {
@@ -112,9 +127,45 @@ ul li button {
   margin-right: 6px;
   border: none;
   color: rgb(255, 194, 113);
+  background-color: rgba(245, 245, 245, 0);
 }
 
 ul li button:hover {
   color: rgba(255, 51, 0, 0.708);
   cursor: pointer;
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  text-align: center;
+  left: 50%;
+  margin: 8px auto;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+}
+
+.menu span {
+  padding: 12px;
+  margin: 4px 8px;
+  font-size: 20px;
+  font-family: 'Do Hyeon', sans-serif;
+  color: whitesmoke;
+  background-color: rgba(188, 143, 143, 0.66);
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.menu span:hover {
+  color: rgb(177, 171, 171);
+  background-color: rgba(188, 143, 143, 0.29);
+}
+
+.menu span.deActive {
+  cursor: default;
+  color: rgba(245, 245, 245, 0.438);
+  background-color: rgba(188, 143, 143, 0.413);
 }

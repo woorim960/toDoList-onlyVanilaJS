@@ -5,6 +5,46 @@
   list-style: none;
 }
 
+body {
+  background-color: rgba(255, 227, 202, 0.331);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: rgba(188, 143, 143, 0.625);
+}
+
+header .logo {
+  display: flex;
+  align-self: center;
+  font-family: 'Do Hyeon', sans-serif;
+  color: whitesmoke;
+  margin-left: 3px;
+}
+
+header .logo i {
+  align-self: center;
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+header .icons {
+  align-self: center;
+  margin-right: 2%;
+  padding: 4px 12px;
+  border: 1px solid rosybrown;
+  border-radius: 4px;
+  background-color: rgba(255, 227, 227, 0);
+  color: whitesmoke;
+}
+
+header .icons:hover {
+  background-color: rgba(188, 143, 143, 0.596);
+  cursor: pointer;
+}
+
 .clock {
   text-align: center;
   padding: 12px;

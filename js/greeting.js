@@ -24,7 +24,7 @@ function askForName() {
 function paintGreeting(currentUser) {
   form.classList.remove(SHOWING_ON);
   greeting.classList.add(SHOWING_ON);
-  greeting.innerHTML = `hello ${currentUser}`;
+  greeting.innerHTML = `User : ${currentUser}`;
 }
 
 function loadName() {

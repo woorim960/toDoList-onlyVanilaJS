@@ -28,7 +28,7 @@ header .logo a {
   display: flex;
 }
 
-header .logo a:focus {
+header .logo a:hover {
   color: whitesmoke;
   background-color: rgba(0, 0, 0, 0);
 }

@@ -1,5 +1,6 @@
 const clockContainer = document.querySelector(".js-clock");
 const clockTitle = clockContainer.querySelector("h1");
+let getClock;
 
 function getTime() {
   const date = new Date();
@@ -19,7 +20,7 @@ function getTime() {
 
 function init() {
   getTime();
-  setInterval(getTime, 500);
+  getClock = setInterval(getTime, 300);
 }
 
 init()
